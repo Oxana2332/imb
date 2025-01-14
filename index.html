@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/normalize.css">
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Калькулятор индекса массы тела (ИМТ)</title>
+</head>
+
+<body>
+    <h1>Калькулятор индекса массы тела (ИМТ)</h1>
+    <p>На данной странице с помощью калькулятора ИМТ вы можете рассчитать свой показатель. Достаточно ввести вес и рост
+        в поля ниже.</p>
+    <label>Вес, кг:
+        <input type="text" class="weight"></label>
+    <label>Рост, см:
+        <input type="text" class="height"></label>
+    <p>ИМТ: <span class="result"></span>
+    </p>
+    <button class="button">Рассчитать</button>
+    <p>Расчёт индекса массы тела определяет в каком соотношении находятся вес и рост, калькулятор подходит для взрослых
+        мужчин и женщин.</p>
+    <p>В таблице ниже можно посмотреть разъяснение показателей согласно рекомендациям Всемирной Организации
+        Здравоохранения
+        (ВОЗ):</p>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Индекс массы тела</th>
+                <th scope="col">Соответствие между массой человека и его ростом</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">16 и менее</th>
+                <td>Выраженный дефицит массы тела</td>
+            </tr>
+            <tr>
+                <th scope="row">16-18,5</th>
+                <td>Недостаточная (дефицит) масса тела</td>
+            </tr>
+            <tr>
+                <th scope="row">18,5-25</th>
+                <td>Норма</td>
+            </tr>
+            <tr>
+                <th scope="row">25-30</th>
+                <td>Избыточная масса тела (предожирение)</td>
+            </tr>
+            <tr>
+                <th scope="row">30-35</th>
+                <td>Ожирение первой степени</td>
+            </tr>
+            <tr>
+                <th scope="row">35-40</th>
+                <td>Ожирение второй степени</td>
+            </tr>
+            <tr>
+                <th scope="row">40 и более</th>
+                <td>Ожирение третьей степени (морбидное)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
