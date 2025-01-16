@@ -94,6 +94,33 @@ th {
     font-weight: bold;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .input__weight,
+    .input__height {
+        width: 60vw;
+    }
+
+    .input__label {
+        width: 90%;
+    }
+
+    table {
+        font-size: 1.6rem;
+    }
+
+    .button {
+        padding: 1.5vh 5vw;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .title {
         font-size: 2.5rem;
@@ -105,8 +132,7 @@ th {
 
     .input__weight,
     .input__height {
-        width: 100%;
-        height: 100%;
+        width: 55vw;
     }
 
     .input__label {
