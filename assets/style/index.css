@@ -103,6 +103,12 @@ th {
         font-size: 1.2rem;
     }
 
+    .input__weight,
+    .input__height {
+        width: 100%;
+        height: 100%;
+    }
+
     .input__label {
         width: 90%;
     }
