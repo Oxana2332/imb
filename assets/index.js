@@ -1,5 +1,5 @@
-let height = document.querySelector('.height');
-let weight = document.querySelector('.weight');
+let height = document.querySelector('.input__height');
+let weight = document.querySelector('.input__weight');
 let imbResult = document.querySelector('.result');
 let button = document.querySelector('.button');
 
@@ -21,7 +21,7 @@ function imb(weight, height) {
 	} else if (result >= 40) {
 		imbResult.textContent = `${result} — Ожирение третьей степени (морбидное)`;
 	} else {
-		imbResult.textContent = `Проверьте правильность введённых данных`;
+		imbResult.textContent = `проверьте правильность введённых данных`;
 	}
 }
 

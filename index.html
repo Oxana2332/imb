@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/normalize.css">
     <link rel="stylesheet" href="./assets/style/index.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Калькулятор индекса массы тела (ИМТ)</title>
+    <title>Калькулятор ИМТ</title>
 </head>
 
 <body>
-    <h1>Калькулятор индекса массы тела (ИМТ)</h1>
-    <p>На данной странице с помощью калькулятора ИМТ вы можете рассчитать свой показатель. Достаточно ввести вес и рост
+    <h1 class="title">Калькулятор индекса массы тела (ИМТ)</h1>
+    <p class="text">На данной странице с помощью калькулятора ИМТ вы можете рассчитать свой показатель.
+        Достаточно ввести вес и рост
         в поля ниже.</p>
-    <label>Вес, кг:
-        <input type="text" class="weight"></label>
-    <label>Рост, см:
-        <input type="text" class="height"></label>
-    <p>ИМТ: <span class="result"></span>
+    <section class="input">
+        <label class="text input__label">Вес, кг:
+            <input type="text" class="input__weight"></label>
+        <label class="text input__label">Рост, см:
+            <input type="text" class="input__height"></label>
+    </section>
+    <p class="text">ИМТ: <span class="result"></span>
     </p>
-    <button class="button">Рассчитать</button>
-    <p>Расчёт индекса массы тела определяет в каком соотношении находятся вес и рост, калькулятор подходит для взрослых
+    <button class="button text">Рассчитать</button>
+    <p class="text">Расчёт индекса массы тела определяет в каком соотношении находятся вес и рост, калькулятор подходит
+        для взрослых
         мужчин и женщин.</p>
-    <p>В таблице ниже можно посмотреть разъяснение показателей согласно рекомендациям Всемирной Организации
+    <p class="description-voz text">В таблице ниже можно посмотреть разъяснение показателей согласно рекомендациям
+        Всемирной Организации
         Здравоохранения
         (ВОЗ):</p>
     <table>
