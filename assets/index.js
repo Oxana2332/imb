@@ -1,5 +1,5 @@
-let height = document.querySelector('.input__height');
-let weight = document.querySelector('.input__weight');
+let height = document.querySelector('input[name="height"]');
+let weight = document.querySelector('input[name="weight"]');
 let imbResult = document.querySelector('.result');
 let button = document.querySelector('.button');
 
