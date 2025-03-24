@@ -26,3 +26,9 @@ function imb(weight, height) {
 }
 
 button.addEventListener('click', () => imb(weight.value, height.value));
+weight.addEventListener('click', () => {
+	weight.value = ' ';
+});
+height.addEventListener('click', () => {
+	height.value = ' ';
+});
